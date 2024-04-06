@@ -13,34 +13,49 @@
 <div class="cont">
     <div class="sidebar">
         <h2>sidebar</h2>
-        <div class="small-active1">thing 1</div>
-        <div class="small-passive">thing 2</div>
+        <div class="sidebar-active1">thing thing 1</div>
+        <div class="sidebar-passive">thing thing 2</div>
 
-        <div class="gradient-border"><div class="small-active2-inner">
-                thing 3
+        <div class="gradient-border"><div class="sidebar-active2-inner">
+                thing thing 3
+                <div class="connected-annotation">1 connected</div>
+                <div class="connected-annotation">2 connected</div>
         </div></div>
 
-        <div class="small-passive">thing 4</div>
-        <div class="small-passive">thing 5</div>
+        <div class="sidebar-passive">thing thing 4</div>
+        <div class="sidebar-passive">thing thing 5</div>
     </div>
     
     <div class="maintainer">
-      <div class="topbar">we're in the topbar</div>
+      <!--<div class="topbar">we're in the topbar</div>-->
       <div class="views">
         
         <div class="view">
+            View 1 title | status 1: online, streaming, last image receiveived 0.03s ago
+            <img src="test_pattern.webp" alt="laser beam profile image" height=300px> 
             <div class="gradient-border"><div class="gradient-body">
                 text inside <br> gradient-body 
             </div></div>
         </div> 
         
         <div class="view">
+            View 2 title | status 2: offline 
+            <img src="test_pattern.webp" alt="laser beam profile image" height=300px> 
             <div class="gradient-border">
-                <button onclick="checkGuess()" class="gradient-body">text inside <br> button</gr></button>
-            </div></div>
+                <button onclick="checkGuess()" class="gradient-button-body">text inside <br> button</gr></button>
+            </div>
         </div> 
+        
+        <!--<div class="view">
+            View 3 title | status 3: online,  
+            <div class="gradient-border">
+                <button onclick="checkGuess()" class="gradient-button-body">text inside <br> button</gr></button>
+            </div> -->
+        </div> 
+        </div>
     </div>
     </div> 
   </div>
   </body>
 </html>
+
