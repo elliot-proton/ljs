@@ -43,12 +43,28 @@ h2{
     border-radius: var(--border-radius-small);
 }
 
+.sidebar-element{
+    background-color: var(--passive-sidebar-color);
+    border-radius: var(--border-radius-small);
+}
+
+.sidebar-element:last-child{
+    margin-top: auto;
+}
+
+
+.active{
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 0px #ff67f0;
+}
+
 .sidebar-active1{ 
     background-color: var(--active-sidebar-color);
     border-radius: var(--border-radius-small);
     margin: 5px;
     padding: 5px;
-box-shadow: 1px 1px 1px 0px #ff67f0;
+    box-shadow: 1px 1px 1px 0px #ff67f0;
 }
 
 .sidebar-active2-inner{ 
