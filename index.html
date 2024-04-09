@@ -5,11 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Apply JavaScript example</title>
-    <script src="script.js" defer></script>
+    <!--<script src="script.js" defer></script>-->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
 <div class="cont">
     <div class="sidebar">
         <h2>sidebar</h2>
@@ -28,40 +27,37 @@
         <div class="sidebar-element">ansel v0.1</div>
     </div>
     
-    <div class="maintainer">
-      <!--<div class="topbar">we're in the topbar</div>-->
-      <div class="views">
+    <div class="views">
+    
+  
+        <div class="view">
+            <img src="test_pattern.webp" alt="laser beam profile image" class="main-image"> 
+            <div class="view-side-buttons">
+                <div class="streaming-status">
+                    <div>STATUS: STREAMING</div>     <div class="circle"></div>
+                </div>
+                <button class="button-54" role="button">START STREAMING</button>
+                <button class="button-54" role="button">CAPTURE IMAGE</button>
+                <button class="button-54" role="button">AUTO EXPOSURE</button>
+            </div>
+
+            <div class="view-bottom-buttons">
+                <button class="button-1" role="button">Button 1</button>
+                <button class="button-2" role="button">Button 2</button>
+            </div>
+        </div> 
+
         
         <div class="view">
             <img src="test_pattern.webp" alt="laser beam profile image" class="main-image"> 
-            <div class="gradient-border"><div class="gradient-body">
-                text inside <br> gradient-body 
-            </div></div>
-            <div>
-            View 1 title | status 1: online, streaming, last image receiveived 0.03s ago
-            <button class="button-85" role="button">Button 85</button>
-
+            <div class="view-side-buttons">
+                <button class="button-54" role="button">START STREAMING</button>
+                <button class="button-54" role="button">Button 54</button>
             </div>
         </div> 
-        
-        <div class="view">
-            View 2 title | status 2: offline 
-            <img src="test_pattern.webp" alt="laser beam profile image" class="main-image" height=300px> 
-            <div class="gradient-border">
-                <button onclick="checkGuess()" class="gradient-button-body">text inside <br> button</gr></button>
-            </div>
-        </div> 
-        
-        <!--<div class="view">
-            View 3 title | status 3: online,  
-            <div class="gradient-border">
-                <button onclick="checkGuess()" class="gradient-button-body">text inside <br> button</gr></button>
-            </div> -->
-        </div> 
-        </div>
+    
     </div>
-    </div> 
-  </div>
-  </body>
+</div>
+</body>
 </html>
 
